@@ -8,6 +8,7 @@ import { ServiciosComponent } from './modulos/pages/servicios/servicios.componen
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
+  {path:'inicio',component:HomeComponent},
   {path:'nosotros', component:NosotrosComponent},
   {path:'servicios', component:ServiciosComponent},
   {path:'contactenos', component:ContactenosComponent},
